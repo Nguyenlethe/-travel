@@ -1,0 +1,279 @@
+
+
+/*             */
+
+.color__year{
+    background-color: rgb(255, 235, 235);
+    padding-top: 50px;
+    display: block;
+}
+#no__reset{
+    display: block;
+    width: 100%;
+}
+
+#no__reset{
+    display: block;
+    width: 100%;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('./img2/nguyen.jpg') top center / cover no-repeat;
+    background-repeat: no-repeat;
+}
+.achievement__content{
+    width: 100%;
+    background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./imageof/M.jpg') top center / cover no-repeat;
+}
+.navbar__header{
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    height: var(--height-nav);
+    background-color: var(--bg-header-scroll);
+    position: fixed;
+    z-index: 3;
+}
+.nabar__menu{
+    display: block;
+    width: 100%;
+    margin-top: var(--height-nav) ;
+    z-index: 2;
+}
+.navbar__list{
+    height:var(--height-nav) ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+.navbar__item i{
+    margin: 0 5px;
+}
+.navbar__item:last-child{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar__item:first-child{
+    margin-right: 40px;
+}
+.navbar__item-conten{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.navbar__item-conten:hover{
+    color: var(--primary-color);
+}
+.navbar__push-more{
+    width: 1px;
+    margin:0 10px;
+    display: inline-block;
+    height: 12px;
+    transform: translateY(-1px);
+    border: 1px solid var(--white-color);
+}
+.nav__input:checked ~ .modal{
+    display: block;
+}
+.nav__input:checked ~ .from__login{
+    display: block;
+}
+.nav__input-tow:checked ~ .from__login-tow{
+    display: block;
+}
+.nav__input-tow:checked ~ .modal{
+    display: block;
+}
+
+
+.ab__home-img{
+    width: 100%;
+}
+.ab__home-sub{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.6rem;
+    color: rgb(87, 83, 83);
+    margin: 30px 0;
+    line-height: 2.4rem;
+}
+.ab__home-btn{
+    text-align: center;
+
+}
+.book__list-number{
+    display: flex;
+    justify-content: center;
+}
+.book__icon{
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin: 0 12px ;
+}
+.book__list-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.book__list-day{
+    position: absolute;
+    font-size: 1.6rem;
+    top: -50px;
+    color: var(--primary-color);
+}
+
+.book__list-headding{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.book__list-sub{
+    color: rgb(107, 105, 105);
+    font-size: 1.4rem;
+    line-height: 30px;
+}
+.book__crossbar{
+    width: 100%;
+    margin: 30px 0;
+}
+.crossbar{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.crossbar a{
+    background-color: var(--crossbar) ;
+    display: block;
+    height: 3px;
+    width: 100%;
+    position: relative;
+} 
+.crossbar a::after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 134, 134);
+}
+
+.crossbar__tow{
+    background-color: var(--crossbar) ;
+    height: 3px;
+    width: 100%;
+    position: relative;
+}
+.crossbar__tow::after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 10%;
+    background-color: rgb(255, 0, 0);
+}
+.crossbar p::after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+.crossbar__crossbar{
+    background-color: var(--crossbar);
+    height: 3px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.crossbar__crossbar::after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+}
+.crossbar__end{
+    background-color: var(--crossbar);
+    height: 3px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.crossbar__end::after{
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    width: 89%;
+    height: 100%;
+    background-color: rgba(0, 255, 55, 0.986);
+}
+
+.new__list-content{
+    padding: 185px 0;
+    margin-left: 25%;
+    width: 20%;
+}
+.new__list-sup{
+    display: block;
+    font-size: 2rem;
+    margin: 20px 0 40px 0;
+    color: var(--white-color);
+}
+.new__list-sup span{
+    color: var(--white-color);
+    font-weight: 600;
+}
+.achievement__love{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.achievment__img{
+    height: 40px;
+}
+.achievement__number{
+    color: black;
+    font-size: 3.6rem;
+    font-weight: 500;
+    padding: 30px 0;
+}
+.achievement__sub-number{
+    color: rgb(136, 130, 130);
+    font-size: 2rem;
+}
+.ab__list-home{
+    width: 100%;
+}
+.headding__best-tours-preamble.ab__achievement-sub{
+    text-align: left;
+}
+.ab__fix-color{
+    color: black;
+    font: 400 40px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+

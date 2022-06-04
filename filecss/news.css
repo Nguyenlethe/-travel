@@ -1,0 +1,197 @@
+#news{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(64, 6, 97, 0.1), rgba(64, 6, 97, 0.1)), url('./img2/new.jpg') top center / cover no-repeat;
+}
+.news__conten-headding{
+    color: var(--white-color);
+    font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+.news__content{
+    padding: 100px 0;
+}
+.news__img{
+    width: 100%;
+    height: 452px;
+    background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./imageof/blog_1.jpg') top center / cover no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.news__img-tow{
+     width: 100%;
+    height: 452px;
+    background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./imageof/blog_1.jpg') top center / cover no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.news__img:hover .news__aft{
+    transform: translateX(0%);
+    opacity: 1;
+}
+.news__img:hover .news__bf{
+    transform: translateX(100%);
+    opacity: 1;
+}
+.news__aft{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 167, 167, 0.2);
+    transform: translateX(-100%);
+    transition: transform linear .3s;
+}
+.news__bf{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 167, 167, 0.2);
+    transform: translateX(200%); 
+    transition: transform linear .3s;
+}
+.news__list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.news__input-submit{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color:transparent;
+    z-index: 2;
+    border: none;
+    outline: none;
+}
+.news__input{
+    height: 47px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    width: calc(100% - 1.6rem);
+}
+.news__input-icon{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    transform: rotate(90deg);
+}
+.news__headding{
+    font-size: 2rem ;
+    padding: 30px 0;
+}
+.news__headding-fix{
+    font-size: 2rem ;
+    padding: 0 0 30px 0;
+}
+.news__sub{
+    margin: 20px 0;
+    color: rgb(88, 88, 88);
+    font-size: 1.4rem;
+}
+.news__list-text{
+    margin-left: -12px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+.news__list-item{
+    padding: 0 12px;
+    border-right: 1px solid rgb(104, 101, 101);
+}
+.news__list-item:last-child{
+    border-right: 1px solid transparent;
+}
+.news__list-item-content{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(153, 147, 147);
+    font-weight: 400;
+}
+.news__list-item-content:hover{
+    color: rgb(0, 0, 0);
+}
+.news__day{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 45px;
+}
+.news__day-number{
+    font-size: 3rem;
+    padding: 12px ;
+    color: var(--white-color);
+    font-weight: 600;
+}
+.news__day-text{
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+.news__hedding{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--black);
+    padding: 20px 0 24px 0;
+}
+.news__text{
+    font-size: 1.6rem;
+    color: rgb(153, 147, 147);
+    line-height: 2.4rem;
+
+}
+.news__content-text{
+    width: 100%;
+    margin: 50px 0;
+}
+.news__list-img{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.news__society-img{
+    width: 100%;
+    height: 100%;
+    transition: transform linear .2s;
+}
+.news__society{
+    position: relative;
+    overflow: hidden;
+    width: 32%;
+    height: 110px;
+    margin: 4px 0;
+}
+.news__society:hover .news__society-img{
+    transform: scale(1.2);
+}
+.news__society:hover .news__img-icon{
+    font-size: 2rem;
+}
+.news__img-icon:hover{
+    transform: scale(1.3);
+    top: 45%;
+    right: 40%;
+}
+.news__img-icon{
+    transition: transform linear .1s;
+    position: absolute;
+    font-size: 0rem;
+    color: red;
+    top: 45%;
+    transform: translateX(50%);
+    right: 50%;
+}

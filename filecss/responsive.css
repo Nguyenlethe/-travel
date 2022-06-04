@@ -1,0 +1,582 @@
+
+/*   TAP LET   */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    .header__end{
+        height: 250px;
+    }  
+    .registration__list-headding{
+        margin-top: 8px;
+    }   
+    .best__tours-headding {
+        margin-top: 32%;
+    }
+    .nabar__menu{
+        height: 60px;
+    }
+    .trending__list{
+        padding-left: 8px;
+    }
+    .achievement__slace{
+        height: 421px;
+    }
+    .from__login-input{
+        height: 49px;
+    }
+    .best__tours-conten{
+        width: 644px;
+    }
+    .width__best-tours-taplet {
+        width: 644px;
+    }    
+    .nabar__menu-sheach-input{
+        width: 100%;
+    }
+    .input__shaech:checked ~ .modal{
+        display: block;
+    }
+    .nabar__menu-sheach-check {
+        position: fixed;
+        right: 0;
+        width: 55%;
+        top: 102px;
+        height: 50px;
+        left: 300px;
+        right: 0px;
+        padding-right: 15px;
+        padding-left: 4px;
+        font-size: 1.6rem;
+    }
+    .shaech__transfer i {
+        font-size: 1.7rem;
+        color: var(--white-color);
+        line-height: 50px;
+        padding: 0 35px;
+    }
+    .shaech__transfer input {
+        width: 90px;
+        height: 50px;
+        right: 2px;
+    }
+    .navbar__list-home{
+        padding-top: 50px;
+    }
+    .navbar__home-icon{
+        font-size: 2.2rem;
+        color: var(--white-color);
+        padding: 0 0 0 24px;
+    }
+
+
+
+   /* responsive about */
+    .resset__sub{
+        padding: 0;
+    }
+    .book__list-headding{
+        font-size: 2.4rem;
+    }
+    .new__list-content {
+        padding: 60px 0;
+        margin-left: 10%;
+        width: 29%;
+    }
+
+
+    /* responsive offers */
+    .nabar__menu-sheach-check.of__shaech{
+        top: 121px;
+    }
+    .of__list-icon {
+        display: flex;
+        margin: 8px 0;
+    }
+    .of__conten-headding{
+        font-size: 6rem;
+    }
+
+
+    /* repon NEWS */
+    .news__society{
+        height: 78px;
+    }
+}
+
+.ct__navbar-cart-pc-check:checked ~ .ct__carts-pc{
+    display: block;
+}
+
+
+/* Mobile and Tablet */
+@media (max-width:63.9375em) {
+    .nabar__menu-list{
+        display: none;
+    }
+    .home__list-item-sub{
+        line-height: 54px;
+    } 
+    .home__color-click{
+        background-color:var(--white-color);
+    }
+    .home__list-item{
+        background-color: transparent;
+    }
+    .home__list-item:hover{
+        background-color: transparent;
+    }
+    .home__list-item-content{
+        background-color: var(--white-color);
+        border-radius: 30px;
+    }
+    .home__list-item-content:hover{
+        background-color: var(--primary-color);
+    }
+    .home__list-item:first-child{
+        border-radius: 0;
+    }
+    .home__color-click i{
+        color: var(--primary-color);
+    }
+    .home__color-click a{
+        color: rgb(73, 72, 72);
+    }
+    .home__list-item:last-child {
+        border-radius: 0;
+    }
+    .home{
+        top: 20px;
+    }
+    .home__list-item {
+        height: 70px;
+        border-radius: 4px;
+    }
+    .btn__from {
+        line-height: 25px;
+        height: 48px;      
+    }
+    .close {
+        text-align: center;
+        line-height: 23px;
+        border-radius: 7px;
+    }
+    .btn:hover .btn__cover{
+        transform: translateX(0);
+        background: var(--bg-btne);
+    }
+    .navbar__home-mb{
+        position: relative;
+    }
+    .navbar__list-home{
+        position: fixed;
+        width: 60%;
+        right: 0;
+        top: 0px;
+        bottom: 0;
+        list-style: none;
+        background: var(--btn-black);
+        z-index: 4;
+        display: none;
+    }
+    .list__menu-item{
+        margin: 30px 40px;
+    }
+    .list__menu-item-link{
+        position: relative;
+        color: var(--white-color);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+    }
+    .input__list:checked ~ .modal{
+        display: block;
+    }
+    .input__list:checked ~ .navbar__list-home{
+        display: block;
+    }
+    .mobile__input-click--from:checked ~ .modal{
+        display: block;
+    }
+    .mobile__input-click-tow:checked ~ .modal{
+        display: block;
+    }
+
+
+    /* respon  offf */
+    .of__select-check{
+        margin-left: 9px;
+    }
+
+
+
+    /* respon NEWSS */
+    .news__img-icon{
+        display: none;
+    }
+
+
+    /* responsive contact */
+    .ct__information{
+        height: 100px;
+    }
+    .ct__navbar-home{
+        display: none;
+    }
+    .ct__nabar-search{
+        margin-left: 0;
+        width: 85%;
+    }
+    .ct__list-glasses-home{
+        display: none;
+    }
+    .ct__bag{
+        background-color: red;
+    }
+    .headding__best-tours-preamble.ct__fix{
+        text-align: center;
+    }
+    .ct__list-cart{
+        display: block;
+    }
+    .ct__list-search{
+        display: block;
+    }
+    .ct__list-home{
+        display: block;
+    }
+    .ct__navbar-home{
+        display: none;
+    }
+    .ct__nabar-search{
+        display:none;
+    }
+    .ct__navbar-cart {
+        display: none;
+    }
+}
+
+/* Only Mobile  iphone 5S E*/
+@media (min-width:20em) and (max-width:35.5em){
+    .achievement__slace{     
+        height: 419px;
+    }
+    .btn__link {
+        padding: 14px 25px;
+    }
+    .society{
+        width: 62%;
+        margin: 10px 0;
+        height: 48px;
+        justify-content: space-around;
+    }
+    .society__sub {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width:25.875em) and (max-width:46.25em){
+    .achievement__slace{     
+        height: 543px;
+    }
+}
+@media (min-width:64em) and (max-width:85.375em){
+    .achievement__slace{     
+        height: 416px;
+    }
+    .achievement__customer {
+        transform: translateY(56%);
+    } 
+}
+@media (max-width: 374px) {
+    .ct__list-star-icon{
+        font-size: 1rem;
+    }
+    .ct__produc-price-show{
+        font-size: 1rem;
+    }
+}
+
+/*  Only Mobile    ip 6,7,8 */
+@media (max-width:46.25em) {
+    .from__login{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        transform: translateX(0);
+        margin-top: 0;
+    }
+    .from__login-tow{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        transform: translateX(0);
+        margin-top: 0;
+    }  
+    .navbar{
+        background: transparent;
+    }
+    .navbar__header{
+        display: none;
+    }
+    .home{
+        top: 50px;
+    }
+    .nabar__conten-headding{
+        font-size: 5rem;
+    }
+    .nabar__conten-sub {
+        font: 400 50px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+    }
+    .header__end{
+        height: 260px;
+    }
+    .nabar__menu{     
+        margin-top:0;
+    }
+    .my__logo {
+        display: none;
+    }
+    .registration__list-headding {
+        margin: 12px 0 10px 0;
+    }
+    /* .registration__send{
+        margin-right: -16px;
+    } */
+    .resset__sub{
+        padding: 0 15px;
+    }
+    .show__best-tours{
+        padding-top: 50px;
+    }
+    .option__img{
+        display: none;
+    }
+    .option__one{
+        background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./image/kyfquan3.webp') top center / cover no-repeat;
+    }
+    .option__tow{
+        background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./image/kyquan1.jpg') top center / cover no-repeat;
+    }
+    .option__three{
+        background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./image/kyquan2.jpg') top center / cover no-repeat;
+    }
+    .option__four{
+        background: linear-gradient(rgba(64, 6, 97, 0), rgba(64, 6, 97, 0)), url('./image/kỳ quan 4.jpg') top center / cover no-repeat;
+    }
+    .option__list-icon{
+        display: none;
+    }
+    .mobile_way{
+        margin-bottom: 20px;
+    }
+    .option__show-headding{
+        font-size: 1.9rem;
+    }
+    .option__btn{
+        margin-top: -0.3rem;
+    }
+    .achievement__slace{
+        margin: 30px 0;
+    }
+    .headding__best-tours-preamble{
+        font-size: 2.8rem;
+    }
+    .your__text {
+        margin: 0 12px;
+    }
+    .form__input {
+        width: 93%;
+    }
+    .my__foot-img {
+       display: none;
+    }
+    .sponsor__img{
+        height: 60%;
+    }  
+    .navbar__menu-name-logo{
+        margin-left: 13px;
+        margin-right: -8px;
+        height: 30px;
+    }
+    .nabar__menu{
+        z-index: 3;
+    }
+    .navbar__home-icon{
+        font-size: 2.2rem;
+        color: var(--white-color);
+        padding: 0 15px 0 10px;
+    }
+    .input__shaech-icon{
+        margin: 0 16px;
+    }
+
+    .nabar__menu-sheach-input{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .navbar__menu-name-haedding{
+        font-size: 1.6rem;
+    }
+    .input__shaech:checked ~ .modal{
+        display: block;
+    }
+    .nabar__menu-sheach-check {
+        position: fixed;
+        right: 0;
+        width: 100%;
+        top: 64px;
+        height: 50px;
+        left: 0;
+        right: 0px;
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+    .shaech__transfer i {
+        font-size: 1.7rem;
+        color: var(--white-color);
+        line-height: 50px;
+        padding: 0 35px;
+    }
+    .shaech__transfer-input{
+        width: 90px;
+        height: 50px;
+        right: 2px;
+    }
+    .from__login-connection {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .navbar__menu-name{
+        display: flex;
+        justify-content: center;
+    }
+    .travelix__foot-sub{
+        align-items: center;
+        text-align: justify;
+        margin: -30px 10px 25px 10px;
+    }
+    .navbar__item:last-child{
+        justify-content: center;
+    }
+    .blog__headding{
+        display: flex;
+        justify-content: center;
+    }
+    .blog{
+        justify-content: center;
+    }
+    .blog__list {
+        width: 40%;
+    }
+    .info__list{
+        justify-content: center;
+    }
+    .touch__input{
+        border: 1px solid var(--white-color);
+        padding-left: 6px;
+    }
+    .trending__nocation{
+        display: none;
+    }
+    .from__login-click{
+        justify-content: center;
+    }
+    .ab__home-haedding{
+        font-size: 3rem;
+    }
+    .btn__link {
+        padding: 14px 25px;
+    }
+    .society{
+        width: 62%;
+        margin: 10px 0;
+        height: 48px;
+        justify-content: space-around;
+        border-radius: 7px;
+    }
+    .society__sub {
+        font-size: 1.4rem;
+    }
+
+
+
+    /* responsive about */
+    .trending__nocation{
+        display: none;
+    }
+    .ab__list-home{
+        padding: 0 12px;;
+    }
+    .book__list-headding{
+        font-size: 1.6rem;
+    }
+    .book__icon{
+        font-size: 2rem;
+    }
+    .book__list-sub{
+        font-size: 1.2rem;
+    }
+    .book__crossbar {
+        padding: 0 12px;
+        justify-content: space-between;
+        margin: 18px 0;
+    }
+    .book__list-day{
+        top: -28px;
+    }
+    .new__list-content {
+        padding: 60px 0;
+        margin-left: 4%;
+        width: 45%;
+    }
+    .achievement__love {
+        margin-top: 53px;
+    }
+    .from__login-click{
+        justify-content: center;
+    }
+
+    .ab__home-haedding{
+        font-size: 3rem;
+    }
+    .ab__conten-headding{
+        font-size:4rem;
+    }
+    .pagination-item__link{
+        --height: 28px;
+        font-size: 1.6rem;
+        max-width: 36px;
+    }
+    .pagination-item{
+        margin: 0 4px;
+    }
+
+
+
+    /* responsive offers */
+    .nabar__menu-sheach-check.of__shaech{
+        top: 85px;
+    }
+    .of__conten-headding{
+        font-size: 4rem;
+    }
+
+
+    /* Respon News */
+    .news__text{
+        display: block;
+        padding: 30px 0;
+    }
+
+
+    /* responsive contact */
+    .ct__list-home-content{
+        width: 70%;
+    }
+}
+
